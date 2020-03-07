@@ -1,7 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
 
 body{
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nunito', sans-serif;
   background-color: #f1f1f1;
 }
+
+.container{
+  margin: 7rem 7rem;
+}
+
+.container .left{
+  /* float this one to left side */
+}
+
+.container .left .header{
+  line-height: 0;
+  margin: 17rem 0 2rem 0;
+}
+
+.container .left .header h2{
+  font-weight: bold;
+  font-size: 3.5rem;
+  padding: 0.3rem 0;
+  color: #3F3B52;
+}
+
+.container .left .description {
+  width: 31rem;
+}
+
+.container .left .description p{
+  font-size: 1.2rem;
+}
+
+.container .left .btn-long {
+  margin-top: 1.5rem;
+  display: inline-block;
+}
+
+.container .left .btn-long .btn-big{
+  font-size: 1.85rem;
+  width: 18rem;
+  font-stretch: extra-expanded;
+  height: 4rem;
+  color: #f1f1f1;
+  background-color: #43BCAD;
+  border: none;
+  border-radius: 5rem;
+}
+
+.container .footer{
+  padding-top: 7rem;
+  margin-left: 40%;
+}
+
+.container .footer img{
+  width: 3.3rem;
+  height: 3rem;
+  padding: 2rem 2rem;
+}
+
